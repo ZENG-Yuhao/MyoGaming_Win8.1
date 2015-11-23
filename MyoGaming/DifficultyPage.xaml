@@ -1,0 +1,35 @@
+﻿<Page
+    x:Class="MyoGaming.DifficultyPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:MyoGaming"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Image Source="backgroud-1.jpg" />
+        <StackPanel Margin="200,200,200,100">
+            <TextBlock x:Name="txt_title" Text="== DIFFICULTY ==" FontSize="50" FontFamily="Times New Roman" TextAlignment="Center" Margin="20"/>
+
+            <HyperlinkButton x:Name="btn_normal" Content="Normal" 
+                             FontFamily="Arial" FontSize="32"
+                             HorizontalAlignment="Center" VerticalAlignment="Top"
+                             Foreground="White" Margin="20" Click="btn_normal_Click"/>
+            <HyperlinkButton x:Name="btn_nightmare" Content="Nightmare" 
+                             FontFamily="Arial" FontSize="32"
+                             HorizontalAlignment="Center" VerticalAlignment="Top"
+                             Foreground="White" Margin="20" Click="btn_nightmare_Click"/>
+            <HyperlinkButton x:Name="btn_hell" Content="Hell" 
+                             FontFamily="Arial" FontSize="32"
+                             HorizontalAlignment="Center" VerticalAlignment="Top"
+                             Foreground="White" Margin="20" Click="btn_hell_Click"/>
+
+            <HyperlinkButton x:Name="btn_back" Content="-Back-" 
+                             FontFamily="Arial" FontSize="32"
+                             HorizontalAlignment="Center" VerticalAlignment="Top"
+                             Foreground="White" Margin="20" Click="btn_back_Click"/>
+
+        </StackPanel>
+    </Grid>
+</Page>

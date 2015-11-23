@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>aed31951-3767-48e7-bdd2-60ca84b2cabc</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>85062860-4377-4556-ba43-57dbd588d96a</UniqueIdentifier>
+      <Extensions>bmp;fbx;gif;jpg;jpeg;tga;tiff;tif;png</Extensions>
+    </Filter>
+    <Image Include="Assets\Logo.scale-100.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SmallLogo.scale-100.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.scale-100.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-100.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Filter Include="Variables">
+      <UniqueIdentifier>{ec97e358-6376-4b88-a5d6-fe9833e5dcf3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Class">
+      <UniqueIdentifier>{84bcfa09-df9e-4413-b44a-41032fbc6435}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="View &amp; Controler">
+      <UniqueIdentifier>{1fa4ad62-f63a-46c7-8cde-a8bb40cea0ed}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="App.xaml.cpp" />
+    <ClCompile Include="MainPage.xaml.cpp" />
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="timer_var.cpp">
+      <Filter>Variables</Filter>
+    </ClCompile>
+    <ClCompile Include="gamepage_var.cpp">
+      <Filter>Variables</Filter>
+    </ClCompile>
+    <ClCompile Include="score.cpp">
+      <Filter>Class</Filter>
+    </ClCompile>
+    <ClCompile Include="reader.cpp">
+      <Filter>Class</Filter>
+    </ClCompile>
+    <ClCompile Include="recorder_var.cpp">
+      <Filter>Variables</Filter>
+    </ClCompile>
+    <ClCompile Include="FileManager.cpp">
+      <Filter>Variables</Filter>
+    </ClCompile>
+    <ClCompile Include="FilerwPage.xaml.cpp" />
+    <ClCompile Include="GamePage.xaml.cpp" />
+    <ClCompile Include="RecordPage.xaml.cpp" />
+    <ClCompile Include="GuidePage.xaml.cpp" />
+    <ClCompile Include="WelcomePage.xaml.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="App.xaml.h" />
+    <ClInclude Include="MainPage.xaml.h" />
+    <ClInclude Include="timer_var.h">
+      <Filter>Variables</Filter>
+    </ClInclude>
+    <ClInclude Include="gamepage_var.h">
+      <Filter>Variables</Filter>
+    </ClInclude>
+    <ClInclude Include="score.h">
+      <Filter>Class</Filter>
+    </ClInclude>
+    <ClInclude Include="recorder_var.h">
+      <Filter>Variables</Filter>
+    </ClInclude>
+    <ClInclude Include="FileManager.h">
+      <Filter>Variables</Filter>
+    </ClInclude>
+    <ClInclude Include="FilerwPage.xaml.h" />
+    <ClInclude Include="GamePage.xaml.h" />
+    <ClInclude Include="RecordPage.xaml.h" />
+    <ClInclude Include="GuidePage.xaml.h" />
+    <ClInclude Include="WelcomePage.xaml.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="MyoGaming_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="GamePage.xaml">
+      <Filter>View &amp; Controler</Filter>
+    </Page>
+    <Page Include="FilerwPage.xaml">
+      <Filter>View &amp; Controler</Filter>
+    </Page>
+    <Page Include="MainPage.xaml">
+      <Filter>View &amp; Controler</Filter>
+    </Page>
+    <Page Include="RecordPage.xaml">
+      <Filter>View &amp; Controler</Filter>
+    </Page>
+    <Page Include="GuidePage.xaml">
+      <Filter>View &amp; Controler</Filter>
+    </Page>
+    <Page Include="NavigatorPage.xaml">
+      <Filter>View &amp; Controler</Filter>
+    </Page>
+    <Page Include="NewgamePage.xaml">
+      <Filter>View &amp; Controler</Filter>
+    </Page>
+    <Page Include="DifficultyPage.xaml">
+      <Filter>View &amp; Controler</Filter>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\arrow_blue_down.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\arrow_blue_left.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\arrow_blue_right.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\arrow_blue_up.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\arrow_red_down.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\arrow_red_left.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\arrow_red_right.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\arrow_red_up.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\LOGO-MYO.PNG">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\right.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\wrong.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\backgroud-1.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\background-2.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\gameover-b.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\gameover-w.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\ui_game_up_arrow.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\welcome-myo.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\hell_blue_down.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\hell_blue_left.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\hell_blue_right.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\hell_blue_up.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\hell_red_down.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\hell_red_left.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\hell_red_right.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\hell_red_up.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\nightmare_blue_down.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\nightmare_blue_left.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\nightmare_blue_right.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\nightmare_blue_up.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\nightmare_red_down.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\nightmare_red_left.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\nightmare_red_right.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\nightmare_red_up.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\logo_2.jpg">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\guide.png">
+      <Filter>Assets</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
