@@ -7,6 +7,7 @@
 #include "RecordPage.xaml.h"
 #include "FileManager.h"
 #include "recorder_var.h"
+#include "NavigatorPage.xaml.h"
 
 using namespace MyoGaming;
 
@@ -43,3 +44,9 @@ void RecordPage::btn_test_Click(Platform::Object^ sender, Windows::UI::Xaml::Rou
 	txt_content->Text = fileManager->ReadFromFile();
 }
 
+
+
+void MyoGaming::RecordPage::btn_bakc_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e)
+{
+	this->Frame->Navigate(Windows::UI::Xaml::Interop::TypeName(NavigatorPage::typeid));
+}

@@ -21,8 +21,10 @@
         <TextBlock x:Name="txt_content" Margin="250,0,250,95" Grid.Row="1" FontFamily="Arial" FontSize="30" 
            TextAlignment="Left"      
            Text=""/>
-        <Button x:ConnectionId='1' x:Name="btn_test" Content="Refresh"
-                FontSize="30"                        Margin="621,549,0,7" Grid.Row="1" />
+        <Button x:ConnectionId='1' x:Name="btn_test" Content="-Refresh-"
+                FontSize="30"                        Margin="546,521,0,35" Grid.Row="1" />
+
+        <Button x:ConnectionId='2' x:Name="btn_bakc" Content="-Back-" FontSize="30" Grid.Row="1" Margin="765,521,0,0" VerticalAlignment="Top"                        />
     </Grid>
 </Page>
 

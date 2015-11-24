@@ -33,5 +33,6 @@ namespace MyoGaming
 		}
 	private:
 		FileManager* fmngr;
+		void btn_bakc_Click(Platform::Object^ sender, Windows::UI::Xaml::RoutedEventArgs^ e);
 	};
 }

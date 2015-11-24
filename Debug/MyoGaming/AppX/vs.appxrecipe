@@ -28,7 +28,7 @@
   <ItemGroup>
     <AppxPackagedFile Include="F:\Visual Studio Workspace\Github repository\MyoGaming_Win8.1\Debug\MyoGaming\MyoGaming.exe">
       <PackagePath>MyoGaming.exe</PackagePath>
-      <Modified>2015-11-23T20:58:59.725</Modified>
+      <Modified>2015-11-24T13:34:34.587</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Visual Studio Workspace\Github repository\MyoGaming_Win8.1\Debug\MyoGaming\MyoGaming.winmd">
       <PackagePath>MyoGaming.winmd</PackagePath>
@@ -228,7 +228,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Visual Studio Workspace\Github repository\MyoGaming_Win8.1\Debug\MyoGaming\RecordPage.xbf">
       <PackagePath>RecordPage.xbf</PackagePath>
-      <Modified>2015-11-22T17:08:05.940</Modified>
+      <Modified>2015-11-24T13:34:30.544</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="F:\Visual Studio Workspace\Github repository\MyoGaming_Win8.1\Debug\MyoGaming\resources.pri">
       <PackagePath>resources.pri</PackagePath>

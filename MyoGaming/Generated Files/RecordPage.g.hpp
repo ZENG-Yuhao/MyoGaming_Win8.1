@@ -28,6 +28,8 @@ void ::MyoGaming::RecordPage::InitializeComponent()
     txt_content = safe_cast<::Windows::UI::Xaml::Controls::TextBlock^>(static_cast<Windows::UI::Xaml::IFrameworkElement^>(this)->FindName(L"txt_content"));
     // Get the Button named 'btn_test'
     btn_test = safe_cast<::Windows::UI::Xaml::Controls::Button^>(static_cast<Windows::UI::Xaml::IFrameworkElement^>(this)->FindName(L"btn_test"));
+    // Get the Button named 'btn_bakc'
+    btn_bakc = safe_cast<::Windows::UI::Xaml::Controls::Button^>(static_cast<Windows::UI::Xaml::IFrameworkElement^>(this)->FindName(L"btn_bakc"));
 }
 
 void ::MyoGaming::RecordPage::Connect(int connectionId, Platform::Object^ target)
@@ -37,6 +39,10 @@ void ::MyoGaming::RecordPage::Connect(int connectionId, Platform::Object^ target
     case 1:
         (safe_cast<::Windows::UI::Xaml::Controls::Primitives::ButtonBase^>(target))->Click +=
             ref new ::Windows::UI::Xaml::RoutedEventHandler(this, (void (::MyoGaming::RecordPage::*)(Platform::Object^, Windows::UI::Xaml::RoutedEventArgs^))&RecordPage::btn_test_Click);
+        break;
+    case 2:
+        (safe_cast<::Windows::UI::Xaml::Controls::Primitives::ButtonBase^>(target))->Click +=
+            ref new ::Windows::UI::Xaml::RoutedEventHandler(this, (void (::MyoGaming::RecordPage::*)(Platform::Object^, Windows::UI::Xaml::RoutedEventArgs^))&RecordPage::btn_bakc_Click);
         break;
     }
     (void)connectionId; // Unused parameter
